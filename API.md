@@ -103,18 +103,18 @@ Print all sales
 
 * **Success Response:**
 
-  **Code:** 200 <br />
-  **Content:** 
+  - **Code:** 200 <br />
+    **Content:** 
 
-  All sales: 
+    All sales: 
 
-  Year   Month  Region                  Product Name  Sales 
+    Year   Month  Region                  Product Name  Sales 
 
-  2020,          1 , USA-Northeast ,  Gear - Large ,    1000.0
+    2020,          1 , USA-Northeast ,  Gear - Large ,    1000.0
 
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
+  - **Code:** 404 NOT FOUND <br />
     **Content:** None
 
 * **Sample Call:**
@@ -152,12 +152,12 @@ Add sales
 
   
 
-  **Success Response:**
+* **Success Response:**
 
-  **Code:** 200 <br />
-  **Content:** 
+  - **Code:** 200 <br />
+    **Content:** 
 
-  > Rows updated: 1
+    > Rows updated: 1
 
 * **Error Response:**
 

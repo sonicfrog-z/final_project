@@ -1,4 +1,17 @@
 # Java microservice final project
+## What in this project
+
+- JDBCApplication
+  - Get data sources and data connection
+- JDBCConnector
+  - Get and set JdbcTemplate
+- JDBCController
+  - Servlets we want to run
+- AESUtils
+  - Encrypt and decrypt password string
+- AddSalesData
+  - A class that encapsulate a row of sales data
+
 ## What this project do
 
 - Connect to sales_total database on a remote MySql server
