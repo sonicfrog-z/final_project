@@ -20,7 +20,7 @@ public class JDBCController {
     }
 
     @CrossOrigin
-    @SuppressWarnings("SqlResolve")
+//    @SuppressWarnings("SqlResolve")
     @RequestMapping(value = "/printAllProducts", method = RequestMethod.GET)
     public String printAllUsers() {
         JdbcTemplate jdbcTemplate= JDBCConnector.getJdbcTemplate();
@@ -37,7 +37,7 @@ public class JDBCController {
     }
 
     @CrossOrigin
-    @SuppressWarnings("SqlResolve")
+//    @SuppressWarnings("SqlResolve")
     @RequestMapping(value = "/printAllRegions", method = RequestMethod.GET)
     public String printAllRegions() {
         JdbcTemplate jdbcTemplate= JDBCConnector.getJdbcTemplate();
@@ -54,7 +54,7 @@ public class JDBCController {
     }
 
     @CrossOrigin
-    @SuppressWarnings("SqlResolve")
+//    @SuppressWarnings("SqlResolve")
     @RequestMapping(value = "/printAllSales", method = RequestMethod.GET)
     public String printAllSales() {
         JdbcTemplate jdbcTemplate= JDBCConnector.getJdbcTemplate();
@@ -75,7 +75,7 @@ public class JDBCController {
     }
 
     @CrossOrigin
-    @SuppressWarnings("SqlResolve")
+//    @SuppressWarnings("SqlResolve")
     @RequestMapping(value = "/addSales", method = RequestMethod.POST)
     public String addUser(@RequestBody AddSalesData addSalesData) {
         JdbcTemplate jdbcTemplate= JDBCConnector.getJdbcTemplate();
